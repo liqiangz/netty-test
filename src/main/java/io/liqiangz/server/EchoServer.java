@@ -25,8 +25,7 @@ public class EchoServer {
 
     public void start() throws Exception {
         final EchoServerHandler serverHandler = new EchoServerHandler();
-        log.info("sfsdf");
-        System.out.println("fasdf");
+        log.info("启动服务");
         EventLoopGroup group = new NioEventLoopGroup();
         try {
             ServerBootstrap b = new ServerBootstrap();
